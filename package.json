@@ -1,0 +1,29 @@
+{
+  "name": "my-arc",
+  "version": "1.0.0",
+  "repository": "https://github.com/chalu/my-arc",
+  "author": "Charles Opute Odili <chaluwa@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix",
+    "check": "tsc --noEmit",
+    "format": "prettier --config .prettierrc 'src/**/*' --write"
+  },
+  "devDependencies": {
+    "@parcel/transformer-typescript-tsc": "^2.9.3",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "parcel": "^2.9.3",
+    "prettier": "^3.0.2",
+    "typescript": "^5.1.6"
+  }
+}

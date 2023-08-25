@@ -932,6 +932,11 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
+"@tsconfig/node-lts@^18.12.4":
+  version "18.12.4"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node-lts/-/node-lts-18.12.4.tgz#fe51be86e6226e3f925b8957d6c21a3bce426fae"
+  integrity sha512-yjhgQkwlIjxDksTSDbFl6fDOekgD0DeHXwfpxEnRY8rwK28UjgMf67b+l8SSVS0sRpOb/xYEKPJ8DpzhgLokZA==
+
 "@types/json-schema@^7.0.12":
   version "7.0.12"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.12.tgz#d70faba7039d5fca54c83c7dbab41051d2b6f6cb"

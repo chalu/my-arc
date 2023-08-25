@@ -1,4 +1,4 @@
-import { fib } from './fib';
+import { fib } from 'utils/fib';
 
 const firstNFib1 = (num: number): number[] => {
   const nums: number[] = [];

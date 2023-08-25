@@ -1,4 +1,4 @@
-import { add } from 'some/nested/utils';
+import { add } from 'utils/add';
 
 interface FibOptions {
   seq?: boolean;

@@ -4,5 +4,8 @@
     "rootDir": "./",
     "baseUrl": "./src",
     "lib": ["es2023", "dom"],
+    "paths": {
+      "utils/*": ["./some/utils/*"]
+    }
   }
 }
